@@ -1,0 +1,4 @@
+
+<!ELEMENT league(team+)>
+<!ELEMENT team(teamName, manager, coach, numVictories, numDefeats, player)>
+

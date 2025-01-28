@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE contacts SYSTEM "contact.dtd">
+<contacts>
+    <contact familyMember="no">
+        <name>John</name>
+        <lastName>Smith</lastName>
+        <mobileNum>6551245</mobileNum>
+        <landlineNum>45879542</landlineNum>
+        <age>42</age>
+        <address main="yes">
+            <street>Franklin 522</street>
+            <postalCode>1603</postalCode>
+            <city>Buenos Aires</city>
+        </address>
+        <email>johnsmith@gmail.com</email>
+    </contact>
+    <contact familyMember="yes">
+        <name>Maria</name>
+        <lastName>Martinez</lastName>
+        <mobileNum>611254875</mobileNum>
+        <landlineNum>47090140</landlineNum>
+        <age>25</age>
+        <address main="yes">
+            <street>Diagonal 1607</street>
+            <postalCode>08002</postalCode>
+            <city>Barcelona</city>
+        </address>
+        <email>mmariamartinez12@hotmail.com</email>
+    </contact>
+</contacts>

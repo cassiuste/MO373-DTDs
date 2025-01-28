@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musicBands SYSTEM "band.dtd">
+
+<musicBands>
+    <band>
+        <name>Queen</name>
+        <genre main="rock">rock, pop</genre>
+        <webpage>queen.com</webpage>
+        <member>
+            <nameMember>Freddie Mercury</nameMember>
+            <ageMember>68</ageMember>
+        </member>
+        <member>
+            <nameMember>Brian May</nameMember>
+            <ageMember>77</ageMember>
+        </member>
+        <numConcerts>0</numConcerts>
+        <numFans>10000000</numFans>
+    </band>
+    <band>
+        <name>Soda Estereo</name>
+        <genre main="pop">pop</genre>
+        <webpage>sestereo.com</webpage>
+        <member>
+            <nameMember>Gustavo Cerati</nameMember>
+            <ageMember>30</ageMember>
+        </member>
+        <member>
+            <nameMember>Zeta Bosio</nameMember>
+            <ageMember>28</ageMember>
+        </member>
+        <numConcerts>0</numConcerts>
+        <numFans>5000000</numFans>
+    </band>
+</musicBands>

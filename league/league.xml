@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE musicBands league "league.dtd">
+
+<league>
+    <team>
+        <teamName></teamName>
+        <manager></manager>
+        <coach></coach>
+        <numVictories></numVictories>
+        <numDefeats></numDefeats>
+        <player>
+            <name></name>
+            <lastName></lastName>
+            <mainRol></mainRol>
+            <secundaryRol></secundaryRol>
+        </player>
+    </team>
+</league>

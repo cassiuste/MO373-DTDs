@@ -1,0 +1,17 @@
+<!ELEMENT contacts(contact+)>
+<!ELEMENT contact(name+, lastName+, mobileNum*,landlineNum*, age+, address+, email+)>
+<!ATTLIST contact familyMember (yes|no) #REQUIRED>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT lastName(#PCDATA)>
+<!ELEMENT mobileNum(#PCDATA)>
+<!ELEMENT landlineNum(#PCDATA)>
+<!ELEMENT age(#PCDATA)>
+<!ELEMENT address(street, postalCode, city)+>
+<!ATTLIST address main (yes|no) #IMPLIED>
+<!ELEMENT street(#PCDATA)>
+<!ELEMENT postalCode(#PCDATA)>
+<!ELEMENT city(#PCDATA)>
+<!ELEMENT email(#PCDATA)>
+
+
+

@@ -1,0 +1,11 @@
+
+<!ELEMENT musicBands(band)>
+<!ELEMENT band(name, genre+, webpage?, member+, numConcerts*, numFans)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre main (rock|pop|trap|classic)>
+<!ELEMENT webpage (#PCDATA)>
+<!ELEMENT member (nameMember, ageMember)>
+<!ATTLIST member number (#PCDATA) >
+<!ELEMENT numConcerts (#PCDATA)>
+<!ELEMENT numFans (#PCDATA)>
