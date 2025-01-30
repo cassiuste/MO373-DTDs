@@ -1,19 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE musicBands league "league.dtd">
+<!DOCTYPE league SYSTEM "league.dtd">
 
 <league>
     <team>
-        <teamName></teamName>
-        <manager></manager>
-        <coach></coach>
-        <numVictories></numVictories>
-        <numDefeats></numDefeats>
+        <teamName>Atletico Madrid</teamName>
+        <manager>Diego Simeone</manager>
+        <coach>Juan Martinez</coach>
+        <location>Madrid</location>
+        <numVictories>15</numVictories>
+        <numDefeats>4</numDefeats>
         <player>
-            <name></name>
-            <lastName></lastName>
-            <mainRol></mainRol>
-            <secundaryRol></secundaryRol>
+            <name>Julian</name>
+            <lastName>Alvarez</lastName>
+            <dateOfBirth>12/08/2000</dateOfBirth>
+            <mainRol>Forward</mainRol>
+            <secundaryRol>attacking midfielder</secundaryRol>
+        </player>
+        <player>
+            <name>Antoine</name>
+            <lastName>Griezmann</lastName>
+            <dateOfBirth>21/03/1991</dateOfBirth>
+            <mainRol>Forward</mainRol>
+            <secundaryRol>attacking midfielder</secundaryRol>
+        </player>
+    </team>
+    <team>
+        <teamName>Barcelona</teamName>
+        <manager>Pep Guardiola</manager>
+        <coach>Juan Martinez</coach>
+        <location>Barcelona</location>
+        <numVictories>18</numVictories>
+        <numDefeats>1</numDefeats>
+        <player>
+            <name>Lionel</name>
+            <lastName>Messi</lastName>
+            <dateOfBirth>24/05/1987</dateOfBirth>
+            <mainRol>Forward</mainRol>
+            <secundaryRol>attacking midfielder</secundaryRol>
+        </player>
+        <player>
+            <name>Robert</name>
+            <lastName>Lewandowski</lastName>
+            <dateOfBirth></dateOfBirth>
+            <mainRol>Forward</mainRol>
+            <secundaryRol>attacking midfielder</secundaryRol>
         </player>
     </team>
 </league>

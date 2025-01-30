@@ -7,14 +7,20 @@
         <name>Queen</name>
         <genre main="rock">rock, pop</genre>
         <webpage>queen.com</webpage>
-        <member>
-            <nameMember>Freddie Mercury</nameMember>
-            <ageMember>68</ageMember>
-        </member>
-        <member>
-            <nameMember>Brian May</nameMember>
-            <ageMember>77</ageMember>
-        </member>
+        <members number="3">
+            <member>
+                <nameMember>Freddie Mercury</nameMember>
+                <ageMember>68</ageMember>
+            </member>
+            <member>
+                <nameMember>Brian May</nameMember>
+                <ageMember>77</ageMember>
+            </member>
+            <member>
+                <nameMember>Roger Taylor</nameMember>
+                <ageMember>85</ageMember>
+            </member>
+        </members>
         <numConcerts>0</numConcerts>
         <numFans>10000000</numFans>
     </band>
@@ -22,15 +28,17 @@
         <name>Soda Estereo</name>
         <genre main="pop">pop</genre>
         <webpage>sestereo.com</webpage>
-        <member>
-            <nameMember>Gustavo Cerati</nameMember>
-            <ageMember>30</ageMember>
-        </member>
-        <member>
-            <nameMember>Zeta Bosio</nameMember>
-            <ageMember>28</ageMember>
-        </member>
-        <numConcerts>0</numConcerts>
+        <members number="2">
+            <member>
+                <nameMember>Gustavo Cerati</nameMember>
+                <ageMember>30</ageMember>
+            </member>
+            <member>
+                <nameMember>Zeta Bosio</nameMember>
+                <ageMember>28</ageMember>
+            </member>
+        </members>
+        <numConcerts>12</numConcerts>
         <numFans>5000000</numFans>
     </band>
 </musicBands>
