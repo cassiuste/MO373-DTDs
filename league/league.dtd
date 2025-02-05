@@ -1,5 +1,5 @@
 
-<!ELEMENT league(team+)>
+<!ELEMENT league (team+)>
 <!ELEMENT team (teamName, manager, coach+, location, numVictories*, numDefeats*, player+)>
 <!ELEMENT teamName (#PCDATA)>
 <!ELEMENT manager (#PCDATA)>

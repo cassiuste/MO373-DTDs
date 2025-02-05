@@ -14,8 +14,9 @@
             <name>Julian</name>
             <lastName>Alvarez</lastName>
             <dateOfBirth>12/08/2000</dateOfBirth>
+            <rol main="forward">attacking midfielder</rol>
             <mainRol>Forward</mainRol>
-            <secundaryRol>attacking midfielder</secundaryRol>
+            <secundaryRol>forward</secundaryRol>
         </player>
         <player>
             <name>Antoine</name>
