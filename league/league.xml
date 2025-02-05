@@ -5,6 +5,7 @@
 <league>
     <team>
         <teamName>Atletico Madrid</teamName>
+        <sport>Football</sport>
         <manager>Diego Simeone</manager>
         <coach>Juan Martinez</coach>
         <location>Madrid</location>
@@ -14,7 +15,6 @@
             <name>Julian</name>
             <lastName>Alvarez</lastName>
             <dateOfBirth>12/08/2000</dateOfBirth>
-            <rol main="forward">attacking midfielder</rol>
             <mainRol>Forward</mainRol>
             <secundaryRol>forward</secundaryRol>
         </player>
@@ -28,6 +28,7 @@
     </team>
     <team>
         <teamName>Barcelona</teamName>
+        <sport>Football</sport>
         <manager>Pep Guardiola</manager>
         <coach>Juan Martinez</coach>
         <location>Barcelona</location>

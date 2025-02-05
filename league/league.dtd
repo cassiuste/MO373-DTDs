@@ -1,13 +1,14 @@
 
 <!ELEMENT league (team+)>
-<!ELEMENT team (teamName, manager, coach+, location, numVictories*, numDefeats*, player+)>
+<!ELEMENT team (teamName, sport, manager, coach+, location, numVictories, numDefeats, player+)>
 <!ELEMENT teamName (#PCDATA)>
+<!ELEMENT sport (#PCDATA)>
 <!ELEMENT manager (#PCDATA)>
 <!ELEMENT coach (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT numVictories (#PCDATA)>
 <!ELEMENT numDefeats (#PCDATA)>
-<!ELEMENT player (name, lastName, dateOfBirth, mainRol, secundaryRol+)>
+<!ELEMENT player (name, lastName, dateOfBirth, mainRol, secundaryRol*)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT lastName (#PCDATA)>
 <!ELEMENT dateOfBirth (#PCDATA)>

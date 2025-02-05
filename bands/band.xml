@@ -5,7 +5,10 @@
 <musicBands>
     <band>
         <name>Queen</name>
-        <genre main="rock">rock, pop</genre>
+        <genres main="rock">
+            <genre>rock</genre>
+            <genre>pop</genre>
+        </genres>
         <webpage>queen.com</webpage>
         <members number="3">
             <member>
@@ -26,7 +29,10 @@
     </band>
     <band>
         <name>Soda Estereo</name>
-        <genre main="pop">pop</genre>
+        <genres main="pop">
+            <genre>pop</genre>
+            <genre>rock</genre>
+        </genres>
         <webpage>sestereo.com</webpage>
         <members number="2">
             <member>
