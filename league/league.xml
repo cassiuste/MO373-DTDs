@@ -2,21 +2,26 @@
 
 <!DOCTYPE league SYSTEM "league.dtd">
 
+<!-- El root del documento es league -->
 <league>
     <team>
         <teamName>Atletico Madrid</teamName>
+        <!-- El elemento sport es mi interpretacion de lo que dice el enunciado de a "què juguen" -->
         <sport>Football</sport>
         <director>Miguel Marin</director>
         <coach>Diego Simeone</coach>
         <location>Madrid</location>
         <numVictories>15</numVictories>
         <numDefeats>4</numDefeats>
+        <!-- Dentro del equipo tiene un elemento jugador, en el que tiene como hijo toda la 
+        informacion del jugador -->
         <player>
             <name>Julian</name>
             <lastName>Alvarez</lastName>
             <dateOfBirth>12/08/2000</dateOfBirth>
             <mainRol>Forward</mainRol>
-            <secundaryRol>forward</secundaryRol>
+            <secundaryRol>adaptability</secundaryRol>
+            <secundaryRol>moral support</secundaryRol>
         </player>
         <player>
             <name>Antoine</name>
@@ -24,13 +29,14 @@
             <dateOfBirth>21/03/1991</dateOfBirth>
             <mainRol>Forward</mainRol>
             <secundaryRol>attacking midfielder</secundaryRol>
+            <secundaryRol>possitive attitude</secundaryRol>
         </player>
     </team>
     <team>
         <teamName>Barcelona</teamName>
         <sport>Football</sport>
         <director>Joan Laporta</director>
-        <coach>Pep Guardiola</coach>
+        <coach>Hansi Flick</coach>
         <location>Barcelona</location>
         <numVictories>18</numVictories>
         <numDefeats>1</numDefeats>
@@ -40,6 +46,7 @@
             <dateOfBirth>24/05/1987</dateOfBirth>
             <mainRol>Forward</mainRol>
             <secundaryRol>attacking midfielder</secundaryRol>
+            <secundaryRol>leadership</secundaryRol>
         </player>
         <player>
             <name>Robert</name>
@@ -47,6 +54,7 @@
             <dateOfBirth></dateOfBirth>
             <mainRol>Forward</mainRol>
             <secundaryRol>attacking midfielder</secundaryRol>
+            <secundaryRol>communication</secundaryRol>
         </player>
     </team>
 </league>

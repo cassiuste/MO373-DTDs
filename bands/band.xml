@@ -2,14 +2,19 @@
 
 <!DOCTYPE musicBands SYSTEM "band.dtd">
 
+<!-- El root del xml es musicBands -->
 <musicBands>
     <band>
         <name>Queen</name>
+        <!-- utilice una etiqueta en la que se especifica el atributo donde se indique
+        cual es el genero principal -->
         <genres main="rock">
             <genre>rock</genre>
             <genre>pop</genre>
         </genres>
         <webpage>queen.com</webpage>
+        <!-- los miembros es una etiqueta en donde estan almacenados los miembros de la banda  y cuentan con
+        un atributo que indica la cantidad de miembros-->
         <members number="3">
             <member>
                 <nameMember>Freddie Mercury</nameMember>

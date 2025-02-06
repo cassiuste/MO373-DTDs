@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE contacts SYSTEM "contact.dtd">
+<!-- Contacts es el root del xml donde se guardaran los contactos -->
 <contacts>
+    <!-- contact es el elemento donde se almacenan los datos de contacto
+    que cuenta con un atributo para indicar si el contacto es un familiar o no. -->
     <contact familyMember="no">
         <name>John</name>
         <lastName>Smith</lastName>
         <mobileNum>6551245</mobileNum>
         <landlineNum>45879542</landlineNum>
         <age>42</age>
+        <!-- la direccion es un elemento que dentro contiene la informacion de la calle, codigo postal
+        y cuidad, tambien cuenta con un atributo que indica si es la direccion principal o secundaria -->
         <address main="yes">
             <street>Franklin 522</street>
             <postalCode>1603</postalCode>

@@ -1,4 +1,4 @@
-
+<!-- El root del xml es league -->
 <!ELEMENT league (team+)>
 <!ELEMENT team (teamName, sport, director, coach+, location, numVictories, numDefeats, player+)>
 <!ELEMENT teamName (#PCDATA)>
@@ -8,6 +8,7 @@
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT numVictories (#PCDATA)>
 <!ELEMENT numDefeats (#PCDATA)>
+<!-- El elemento 'player' indica toda la informacion con respecto al jugador-->
 <!ELEMENT player (name, lastName, dateOfBirth, mainRol, secundaryRol*)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT lastName (#PCDATA)>

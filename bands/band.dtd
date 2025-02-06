@@ -1,12 +1,17 @@
-
+<!-- El root de el documento xml es musicBands -->
 <!ELEMENT musicBands (band+)>
 <!ELEMENT band (name, genres, webpage?, members, numConcerts*, numFans)>
 <!ELEMENT name (#PCDATA)>
+<!-- Dentro del elemento de genres tiene un atributo con nombre 'main' el que
+indica el género principal y tiene como valor predeterminado 'rock', pero
+que se pueda elegir dentro de las opciones dadas por el enunciado-->
 <!ATTLIST genres main (rock|pop|trap|classic) "rock">
 <!ELEMENT genres (genre+)>
 <!ELEMENT genre (#PCDATA)>
 <!ELEMENT webpage (#PCDATA)>
 <!ELEMENT members (member+)>
+<!-- Dento del elemento members que es donde se encuentran todos los miembros
+tiene un atributo que indica la cantidad de miembros -->
 <!ATTLIST members number CDATA #REQUIRED>
 <!ELEMENT member (nameMember, ageMember)>
 <!ELEMENT nameMember (#PCDATA)>

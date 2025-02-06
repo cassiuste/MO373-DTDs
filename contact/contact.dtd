@@ -1,5 +1,8 @@
+<!-- El root es el contacts-->
 <!ELEMENT contacts (contact+)>
-<!ELEMENT contact (name, lastName, mobileNum*,landlineNum*, age, address+, email)>
+<!-- He indicado que el contacto puede tener un numero de mobil y puede o no tener un numero de linea-->
+<!ELEMENT contact (name, lastName, mobileNum, landlineNum?, age, address+, email)>
+<!-- contact tiene un atributo en el que indica si el contacto es un familiar o no-->
 <!ATTLIST contact familyMember (yes|no) #REQUIRED>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT lastName (#PCDATA)>
@@ -7,6 +10,8 @@
 <!ELEMENT landlineNum (#PCDATA)>
 <!ELEMENT age (#PCDATA)>
 <!ELEMENT address (street, postalCode, city)>
+<!-- La direccion tiene un atributo que es un booleano que indica 
+si la direccion es la principal o no-->
 <!ATTLIST address main (yes|no) #IMPLIED>
 <!ELEMENT street (#PCDATA)>
 <!ELEMENT postalCode (#PCDATA)>
