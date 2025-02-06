@@ -6,8 +6,8 @@
     <team>
         <teamName>Atletico Madrid</teamName>
         <sport>Football</sport>
-        <manager>Diego Simeone</manager>
-        <coach>Juan Martinez</coach>
+        <director>Miguel Marin</director>
+        <coach>Diego Simeone</coach>
         <location>Madrid</location>
         <numVictories>15</numVictories>
         <numDefeats>4</numDefeats>
@@ -29,8 +29,8 @@
     <team>
         <teamName>Barcelona</teamName>
         <sport>Football</sport>
-        <manager>Pep Guardiola</manager>
-        <coach>Juan Martinez</coach>
+        <director>Joan Laporta</director>
+        <coach>Pep Guardiola</coach>
         <location>Barcelona</location>
         <numVictories>18</numVictories>
         <numDefeats>1</numDefeats>

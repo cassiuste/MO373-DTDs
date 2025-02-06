@@ -1,9 +1,9 @@
 
 <!ELEMENT league (team+)>
-<!ELEMENT team (teamName, sport, manager, coach+, location, numVictories, numDefeats, player+)>
+<!ELEMENT team (teamName, sport, director, coach+, location, numVictories, numDefeats, player+)>
 <!ELEMENT teamName (#PCDATA)>
 <!ELEMENT sport (#PCDATA)>
-<!ELEMENT manager (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
 <!ELEMENT coach (#PCDATA)>
 <!ELEMENT location (#PCDATA)>
 <!ELEMENT numVictories (#PCDATA)>
